@@ -1,10 +1,9 @@
 import pyautogui
 import time
-import numpy as np
-from PIL import ImageGrab
-import cv2
-
-last_time = time.time()
+# eye bot imports
+# import numpy as np
+# from PIL import ImageGrab
+# import cv2
 
 pyautogui.click(950, 575)  # set focus to game
 pyautogui.keyDown('tab')  # find target
@@ -25,7 +24,8 @@ pyautogui.rightClick(950, 752)
 time.sleep(1)
 pyautogui.keyUp('shift')
 
-
+# begin eye bot
+# last_time = time.time()
 # while(True):
 #     screen = np.array(ImageGrab.grab(bbox=(0, 40, 800, 640)))
 #     # printscreen_numpy = np.array(printscreen_pil.getdata(),dtype='uint8')
